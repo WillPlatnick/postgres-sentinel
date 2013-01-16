@@ -63,6 +63,4 @@ It is important to delete the trigger file, because if it exists when a slave is
 failover even if the file is deleted while running. The file cannot exist when postgres starts.
 
 ## TODO
- * send notifications 
  * allow multiple slaves to be selected from for failover
- * detect situation where db may just be under very heavy load by delaying failover and if a query eventually succeeds, have sentinel publish '-SDOWN'.
